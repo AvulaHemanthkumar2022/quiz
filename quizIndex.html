@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Computer Science Personalities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div style="text-align: center;">
+            <p>Question will pop up in 3 seconds...</p>
+
+            <h1 text-align="center">Famous Computer Science Personalities</h1>
+        </div>
+        <div class="image-gallery">
+            <img src="alan-turing.jpg" alt="Alan Turing">
+            <img src="Charles-Babbage.jpg" alt="Charles Babbage">
+            <img src="dabbalaBreddy.jpg" alt="Dabbala Breddy">
+            <img src="DavidDeutsch.jpg" alt="David Deutsch">
+            <img src="Dennis-Ritchie.jpg" alt="Dennis Ritchie">
+            <img src="EdsgerWDijksta.jpg" alt="Edsger">
+            <img src="Euclid.jpg" alt="Euclid">
+            <img src="geoffreyhintonneuralNtk.jpg" alt="Geoffrey">
+            <img src="GuidovanRossum.jpg" alt="Guido van Rossum">
+        </div>
+        <div class="image-gallery">
+            <img src="JamesGosling.jpg" alt="James Gosling">
+            <img src="kenthompson.jpg" alt="Kenthompson">
+            <img src="larrypage.jpg" alt="Larrypage">
+            <img src="leslieLamport.jpg" alt="Leslie Lamport">
+            <img src="linusTorvalds.jpg" alt="Linus Torvalds">
+            <img src="liskovBarbara.jpg" alt="Liskov Barbara">
+            <img src="Markov.jpg" alt="Andrey Markov">
+            <img src="markzuckerberg.jpg" alt="Person 17">
+        </div>
+        <div class="image-gallery">
+            <img src="MartinCooper.jpg" alt="Martin Cooper">
+            <img src="martinHellman.jpg" alt="Martin Hellman">
+            <img src="Newton.jpg" alt="Isaac Newton">
+            <img src="TimBernersLee.jpg" alt="Tim Berners-Lee">
+            <img src="VintCerf.jpg" alt="Vint Cerf">
+            <img src="Vitalik.jpg" alt="Person 23">
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Select the Correct Answer</h2>
+            <img id="modal-image" src="" alt="Selected Person" class="modal-image">
+            <select id="person-select">
+                <option value="" disabled selected>-- Select Your Answer --</option>
+            </select>
+            <button id="submit-answer">Submit Answer</button>
+            <p id="feedback-message" style="display: none;"></p>
+            <button id="next-question" style="display: none;">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
